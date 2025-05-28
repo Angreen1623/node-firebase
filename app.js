@@ -5,7 +5,7 @@ const bodyParser = require("body-parser")
 const { initializeApp, applicationDefault, cert } = require('firebase-admin/app')
 const { getFirestore, Timestamp, FieldValue } = require('firebase-admin/firestore')
 
-//const serviceAccount = require('./projetoweb-9c5af-firebase-adminsdk-f6tgp-a23931d818.json')
+const serviceAccount = require('./node-firebase-b3c0f-firebase-adminsdk-fbsvc-f19fc4d8b9.json')
 
 initializeApp({
   credential: cert(serviceAccount)
